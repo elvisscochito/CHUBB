@@ -1,19 +1,33 @@
-import styles from '../styles/Navbar.module.css'
+import { NavLink } from 'react-router-dom'
+import '../styles/Navbar.css'
 
 const Navbar = () => {
     return (
-        <header className={styles.navbarHeader}>
+        <header className="navbarHeader">
             <nav>
-                <div className={styles.logo}>ME.inchobs</div>
+                <div className="logo">ME.inchobs</div>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Chobs Points</a></li>
-                    <li><a href="#">Conferencias</a></li>
-                    <li><a href="#">Cuadro Chobs</a></li>
+                    <li>
+                        <NavLink to="/chatbot">
+                            Inicio
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/chob-points">
+                            Chobs Points
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/conferences">
+                            Conferencias
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/cuadro-chobs">
+                            Cuadro Chobs
+                        </NavLink>
+                    </li>
                     <li><a href="#">Mentores</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Más</a></li>
-                    <li><a href="#" className={styles.contacto}>Contacto</a></li>
                 </ul>
             </nav>
         </header>
