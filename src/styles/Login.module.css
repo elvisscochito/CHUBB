@@ -11,13 +11,18 @@ div.grid {
     align-items: flex-end;
     height: 100%;
     margin-bottom: 1.5rem;
+
+    img {
+      height: 150px;
+      aspect-ratio: 2/1;
+    }
   }
 }
 
 div.main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
   width: 25%;
@@ -74,7 +79,7 @@ footer.footer {
   justify-content: center;
   align-items: flex-start;
   height: 100%;
-  margin-top: 1.5rem;
+  padding-top: 1.5rem;
 
   p {
     text-wrap: balance;

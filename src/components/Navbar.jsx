@@ -27,7 +27,11 @@ const Navbar = () => {
                             Cuadro Chobs
                         </NavLink>
                     </li>
-                    <li><a href="#">Mentores</a></li>
+                    <li>
+                        <NavLink to="/mentors">
+                            Mentores
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>

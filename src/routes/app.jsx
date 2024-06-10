@@ -5,6 +5,7 @@ import ChobPoints from "../pages/ChobPoints";
 import Conferences from "../pages/Conferences";
 import CuadroChobs from "../pages/CuadroChobs";
 import Login from "../pages/Login";
+import Mentors from "../pages/Mentors";
 import Selection from "../pages/Selection";
 
 const AppRouter = () => {
@@ -18,6 +19,7 @@ const AppRouter = () => {
           <Route path="/conferences" element={<Conferences />} />
           <Route path="/cuadro-chobs" element={<CuadroChobs />} />
           <Route path="/chob-points" element={<ChobPoints />} />
+          <Route path="/mentors" element={<Mentors />} />
         </Route>
       </Routes>
     </BrowserRouter>
