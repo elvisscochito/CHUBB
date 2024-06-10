@@ -6,7 +6,7 @@ function Login() {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/chatbot");
+    navigate("/selection");
   };
   return (
     <div className={styles.grid}>
