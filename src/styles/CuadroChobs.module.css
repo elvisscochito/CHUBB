@@ -1,0 +1,53 @@
+div.cuadroChobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90vh;
+  gap: 3rem;
+  padding-top: 1.5rem;
+
+  h1.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-inline-size: 35ch;
+    text-align: center;
+    text-wrap: balance;
+  }
+
+
+  div.people {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    div.personContainer {
+      figure.person {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+          width: 180px;
+          height: 180px;
+        }
+
+        figcaption {
+          font-size: 1.15rem;
+          font-weight: 600;
+        }
+      }
+
+      span.description {
+        display: inline-block;
+        max-inline-size: 25ch;
+        text-align: center;
+        text-wrap: balance;
+      }
+    }
+  }
+}
