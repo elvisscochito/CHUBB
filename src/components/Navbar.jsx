@@ -32,6 +32,11 @@ const Navbar = () => {
                             Mentores
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/about">
+                            Nosotros
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>
