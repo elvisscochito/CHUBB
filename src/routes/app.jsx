@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../components/Layout";
+import About from "../pages/About";
 import ChatBot from "../pages/ChatBot";
 import ChobPoints from "../pages/ChobPoints";
 import Conferences from "../pages/Conferences";
@@ -20,6 +21,7 @@ const AppRouter = () => {
           <Route path="/cuadro-chobs" element={<CuadroChobs />} />
           <Route path="/chob-points" element={<ChobPoints />} />
           <Route path="/mentors" element={<Mentors />} />
+          <Route path="/about" element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>
