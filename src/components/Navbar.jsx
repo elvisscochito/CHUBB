@@ -3,10 +3,10 @@ import '../styles/Navbar.css'
 
 const Navbar = () => {
     return (
-        <header className="navbarHeader">
-            <nav>
-                <div className="logo">ME.inchobs</div>
-                <ul>
+        <header className='navbarHeader'>
+            <nav className='navbar'>
+                <div className='logo'>ME.inchobs</div>
+                <ul className='ul'>
                     <li>
                         <NavLink to="/chatbot">
                             Inicio
@@ -37,7 +37,15 @@ const Navbar = () => {
                             Nosotros
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/more">
+                            Más
+                        </NavLink>
+                    </li>
                 </ul>
+                <NavLink to="/contact-us" className='contact'>
+                    Contacto
+                </NavLink>
             </nav>
         </header>
     )
