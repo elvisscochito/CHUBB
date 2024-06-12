@@ -1,0 +1,29 @@
+.infoSection {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.infoSection h2 {
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.infoSection p {
+  font-size: 100%;
+  line-height: 1.5;
+  margin-bottom: 1%;
+}
+
+.infoSection h3 {
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.infoSection hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 1% 0;
+}

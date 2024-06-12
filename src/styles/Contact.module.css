@@ -1,0 +1,70 @@
+.contactSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 50px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.contactInfo {
+  max-width: 300px;
+  text-align: left;
+}
+
+.contactInfo h3 {
+  margin-bottom: 10px;
+}
+
+.contactInfo p {
+  margin-bottom: 20px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 10%;
+  margin-bottom: 10%;
+}
+
+.socialMedia a img {
+  width: 80%;
+  height: 90%;
+}
+
+.contactForm {
+  background-color: #b1afaf;
+  padding: 2%;
+  border-radius: 2%;
+  max-width: 35%;
+  width: 100%;
+}
+
+.contactForm h3 {
+  margin-bottom: 2%;
+  color: #000;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactForm form input,
+.contactForm form textarea {
+  padding: 2% 1%;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.contactForm form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}

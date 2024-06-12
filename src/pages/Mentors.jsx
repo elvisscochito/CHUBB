@@ -1,36 +1,49 @@
 import { useState } from 'react';
+import foro1 from '../assets/foro1.png';
+import foro2 from '../assets/foro2.png';
+import foro3 from '../assets/foro3.png';
+import foro4 from '../assets/foro4.png';
+import foro5 from '../assets/foro5.png';
+import foro6 from '../assets/foro6.png';
+import user from '../assets/user.png';
 import '../styles/Mentors.css';
 
 function Mentors() {
   const [foros, setForos] = useState([
     {
       id: 1,
-      name: 'Foro 1',
-      description: 'Este es el foro 1.',
-      selected: true
+      title: 'Mejora como persona',
+      image: foro1,
+      selected: false
     },
     {
       id: 2,
-      name: 'Foro 2',
-      description: 'Este es el foro 2.',
+      title: 'Técnicas para poder...',
+      image: foro2,
       selected: false
     },
     {
       id: 3,
-      name: 'Foro 3',
-      description: 'Este es el foro 3.',
-      selected: false
+      title: '¿Cómo interactuar en...',
+      image: foro3,
+      selected: true
     },
     {
       id: 4,
-      name: 'Foro 4',
-      description: 'Este es el foro 4.',
+      title: 'La industria de la em...',
+      image: foro4,
       selected: false
     },
     {
       id: 5,
-      name: 'Foro 5',
-      description: 'Este es el foro 5.',
+      title: 'Tendencias de la imi...',
+      image: foro5,
+      selected: false
+    },
+    {
+      id: 6,
+      title: '¿Saberes cotidianos i...',
+      image: foro6,
       selected: false
     }
   ]);
@@ -41,9 +54,9 @@ function Mentors() {
         {
           foros.map((foro) => {
             return (
-              <div key={foro.id}>
-                <h2>{foro.name}</h2>
-                <p>{foro.description}</p>
+              <div key={foro.id} className={foro.selected ? 'foroCardActive' : 'foroCard'}>
+                <img src={foro.image} alt={foro.title} />
+                <h2>{foro.title}</h2>
               </div>
             );
           })
@@ -51,11 +64,10 @@ function Mentors() {
       </div>
       <div className='mentores'>
         <div className='comments'>
-          <h1>Discusión</h1>
-          <h2>Carlos</h2>
-          <p>Mensaje de Carlos</p>
-          <h2>María</h2>
-          <p>Mensaje de Maria.</p>
+          <div className='comment'>
+            <img src={user} alt='user' />
+            <p className='message'>¡Hola amigos!, el dia de hoy les quiero compartir que, las inteacciones entre los proveedores y los clientes siempre importará, pues, la gratitud y atención es algo que nos caracteriza como empresa</p>
+          </div>
         </div>
         <div className='chat'>
           <input type='text' placeholder='Escribe tu mensaje' />
