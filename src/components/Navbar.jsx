@@ -1,12 +1,13 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import user from '../assets/user.png'
 import '../styles/Navbar.css'
 
 const Navbar = () => {
     return (
-        <header className="navbarHeader">
-            <nav>
-                <div className="logo">ME.inchobs</div>
-                <ul>
+        <header className='navbarHeader'>
+            <nav className='navbar'>
+                <div className='logo'>ME.inchobs</div>
+                <ul className='ul'>
                     <li>
                         <NavLink to="/chatbot">
                             Inicio
@@ -37,7 +38,18 @@ const Navbar = () => {
                             Nosotros
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/more">
+                            Más
+                        </NavLink>
+                    </li>
                 </ul>
+                <Link to="/contact-us" className='contact'>
+                    Contacto
+                </Link>
+                <Link to="/user" className='user'>
+                    <img src={user} alt="user" />
+                </Link>
             </nav>
         </header>
     )
