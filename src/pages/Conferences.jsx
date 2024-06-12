@@ -7,7 +7,7 @@ function Conferences() {
     <div className={styles.conference}>
       <img src={image} alt="conferences" className={styles.conferences} />
       <span className={styles.timer}>08:14:02</span>
-      <span className={styles.title}>Emprende con Propósito</span>
+      <span className={styles.title}>Inteligencia Emocional</span>
     </div>
   );
 }
