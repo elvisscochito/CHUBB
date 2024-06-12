@@ -1,4 +1,5 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import user from '../assets/user.png'
 import '../styles/Navbar.css'
 
 const Navbar = () => {
@@ -43,9 +44,12 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                 </ul>
-                <NavLink to="/contact-us" className='contact'>
+                <Link to="/contact-us" className='contact'>
                     Contacto
-                </NavLink>
+                </Link>
+                <Link to="/user" className='user'>
+                    <img src={user} alt="user" />
+                </Link>
             </nav>
         </header>
     )
