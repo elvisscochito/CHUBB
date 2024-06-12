@@ -1,8 +1,16 @@
-import { Link, NavLink } from 'react-router-dom'
-import user from '../assets/user.png'
-import '../styles/Navbar.css'
+import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
+import user from '../assets/user.png';
+import '../styles/Navbar.css';
+
 
 const Navbar = () => {
+    const navigate = useNavigate();
+
+    const handleSignOut = (e) => {
+        navigate("/");
+    };
     return (
         <header className='navbarHeader'>
             <nav className='navbar'>
@@ -44,12 +52,15 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                 </ul>
-                <Link to="/contact-us" className='contact'>
-                    Contacto
-                </Link>
-                <Link to="/user" className='user'>
-                    <img src={user} alt="user" />
-                </Link>
+                <div className='container'>
+                    <Link to="/contact-us" className='contact'>
+                        Contacto
+                    </Link>
+                    <Link to="/user" className='user'>
+                        <img src={user} alt="user" />
+                    </Link>
+                    <FontAwesomeIcon icon={faRightFromBracket} onClick={handleSignOut} className='icon' />
+                </div>
             </nav>
         </header>
     )
