@@ -32,7 +32,7 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/cuadro-chobs">
+                        <NavLink to="/cuadro-yunfer">
                             Cuadro Yunfer
                         </NavLink>
                     </li>
