@@ -21,7 +21,7 @@ const AppRouter = () => {
         <Route element={<Layout />}>
           <Route path="/chatbot" element={<ChatBot />} />
           <Route path="/conferences" element={<Conferences />} />
-          <Route path="/cuadro-chobs" element={<CuadroChobs />} />
+          <Route path="/cuadro-yunfer" element={<CuadroChobs />} />
           <Route path="/yunfer-points" element={<ChobPoints />} />
           <Route path="/mentors" element={<Mentors />} />
           <Route path="/about" element={<About />} />
