@@ -13,21 +13,21 @@ function CuadroChobs() {
         <div className={styles.personContainer}>
           <figure className={styles.person}>
             <img src={person1} alt="person1" />
-            <figcaption>Mariela Nambo Orozco</figcaption>
+            <figcaption>Iván Alejandro García Ramírez </figcaption>
           </figure>
           <span className={styles.description}>Por su destacada participación en los foros de discusión</span>
         </div>
         <div className={styles.personContainer}>
           <figure className={styles.person}>
             <img src={person2} alt="person1" />
-            <figcaption>Pablo Aranda Flores</figcaption>
+            <figcaption>Adrián Cortés Bernal</figcaption>
           </figure>
           <span className={styles.description}>Por su destacada atención al cliente</span>
         </div>
         <div className={styles.personContainer}>
           <figure className={styles.person}>
             <img src={person3} alt="person1" />
-            <figcaption>Jerónimo De la Torre</figcaption>
+            <figcaption>Nicolas Meza Boileve</figcaption>
           </figure>
           <span className={styles.description}>Por su destacada aportación de iniciativas organizacionales</span>
         </div>
