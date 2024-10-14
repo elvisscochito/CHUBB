@@ -19,7 +19,7 @@ function About() {
             </p>
           </div>
           <div className='valores'>
-            <h2>Valores en ME.inchobs</h2>
+            <h2>Valores en Grupo YUNFER</h2>
             <ul>
               <li>Excelencia</li>
               <li>Honestidad</li>

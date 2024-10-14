@@ -11,7 +11,7 @@ function ChatBot() {
         <div className={styles.options}>
           <div className={styles.option}>¿Cómo dar un buen servicio?</div>
           <div className={styles.option}>¿Cómo debo presentarme?</div>
-          <div className={styles.option}>¿Qué son los ChobPoints?</div>
+          <div className={styles.option}>¿Qué son los Yunfer Points?</div>
           <div className={styles.option}>¿Cómo entro al cuadro de honor?</div>
           <div className={styles.option}>Lineamientos de la empresa</div>
         </div>

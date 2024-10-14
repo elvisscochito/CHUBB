@@ -1,9 +1,9 @@
 import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
+import logo from "../assets/logo.svg";
 import user from '../assets/user.png';
 import '../styles/Navbar.css';
-
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <header className='navbarHeader'>
             <nav className='navbar'>
-                <div className='logo'>ME.inchobs</div>
+                <img src={logo} alt="logo" className='logo' />
                 <ul className='ul'>
                     <li>
                         <NavLink to="/chatbot">
@@ -22,8 +22,8 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/chob-points">
-                            Chobs Points
+                        <NavLink to="/yunfer-points">
+                            Yunfer Points
                         </NavLink>
                     </li>
                     <li>
@@ -33,7 +33,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <NavLink to="/cuadro-chobs">
-                            Cuadro Chobs
+                            Cuadro Yunfer
                         </NavLink>
                     </li>
                     <li>

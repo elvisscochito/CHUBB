@@ -9,7 +9,7 @@ import CuadroChobs from "../pages/CuadroChobs";
 import Login from "../pages/Login";
 import Mentors from "../pages/Mentors";
 import More from "../pages/More";
-import Selection from "../pages/Selection";
+/* import Selection from "../pages/Selection"; */
 import User from "../pages/User";
 
 const AppRouter = () => {
@@ -17,12 +17,12 @@ const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/selection" element={<Selection />} />
+        {/* <Route path="/selection" element={<Selection />} /> */}
         <Route element={<Layout />}>
           <Route path="/chatbot" element={<ChatBot />} />
           <Route path="/conferences" element={<Conferences />} />
           <Route path="/cuadro-chobs" element={<CuadroChobs />} />
-          <Route path="/chob-points" element={<ChobPoints />} />
+          <Route path="/yunfer-points" element={<ChobPoints />} />
           <Route path="/mentors" element={<Mentors />} />
           <Route path="/about" element={<About />} />
           <Route path="/more" element={<More />} />

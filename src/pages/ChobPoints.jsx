@@ -15,7 +15,7 @@ function ChobPoints() {
       </div>
       <div className="button">
         <img src={logoPoints} alt="Tus Chobs Points" />
-        <h3>Tus Chobs Points</h3>
+        <h3>Tus Yunfer Points</h3>
         <p>Canjear</p>
       </div>
     </section>

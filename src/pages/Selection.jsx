@@ -19,7 +19,7 @@ function Selection() {
         <>
             <header className={styles.selectionHeader}>
                 <nav>
-                    <div className={styles.logo}>ME.inchobs</div>
+                    <div className={styles.logo}>Grupo YUNFER</div>
                 </nav>
             </header>
 

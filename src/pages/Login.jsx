@@ -6,7 +6,7 @@ function Login() {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/selection");
+    navigate("/chatbot");
   };
   return (
     <div className={styles.grid}>
@@ -23,7 +23,7 @@ function Login() {
         </form>
       </div>
       <footer className={styles.footer}>
-        <p>Inchobs hace de su conocimiento que al iniciar sesión, acepta los <span>Términos de servicio</span> y las <span>Políticas de Privacidad</span></p>
+        <p>Grupo YUNFER hace de su conocimiento que al iniciar sesión, acepta los <span>Términos de servicio</span> y las <span>Políticas de Privacidad</span></p>
       </footer>
     </div>
   );
