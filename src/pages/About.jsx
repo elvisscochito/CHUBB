@@ -2,6 +2,7 @@ import mision from '../assets/mision.png';
 import objetivo from '../assets/objetivo.png';
 import styles from '../styles/About.module.css';
 function About() {
+  /* change */
   return (
     <div className={styles.about}>
       <div className={styles.firstSectionContainer}>
