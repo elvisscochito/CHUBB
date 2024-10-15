@@ -9,13 +9,14 @@ function About() {
           <div className={styles.mision}>
             <h2>Nuestra misión</h2>
             <p>
-              Ofrecer a nuestros clientes las mejores experiencias y el mejor trato en la resolución de problemas o percances que se presenten.
+              Somos una empresa con experiencia que ofrece soluciones en aire comprimido basadas en la calidad y confiabilidad, garantizando la satisfacción de nuestros clientes.
             </p>
           </div>
           <div className='vision'>
             <h2>Nuestra visión</h2>
             <p>
-              Para 2025 posicionarnos como la empresa de servicios aledaños a seguros líder en México, superando los retos de la industria mediante el mejoramiento del ambiente laboral y a través de generar un ambiente de confianza.
+              Consolidarnos como empresa líder en soluciones en aire comprimido proporcionando la tecnología más avanzada al alcance de nuestros clientes, esto es pensar en
+              YUNFER.
             </p>
           </div>
           <div className='valores'>
